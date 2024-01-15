@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="lang/messages/en/user.js"></script>
+</head>
+<body>
+    <label for="numButtons">How many buttons to create?</label>
+    <br>
+    <input type="text" id="n" name="numButtons">
+    <button onclick="console.log('Button clicked!'); 
+        buttonCreator.createButtons(); 
+        buttonCreator.startRandomMovement();"
+    >Go!</button>
+    <div id="output"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

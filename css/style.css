@@ -1,0 +1,9 @@
+#output {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dynamic-button {
+    height: 5em;
+    width: 10em;
+    margin: 0.5em;
+}
